@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCセットアップ自動化システム</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>PCセットアップ自動化システム</h1>
+            <nav>
+                <button id="newRequestBtn" class="active">新規申請</button>
+                <button id="requestListBtn">申請一覧</button>
+            </nav>
+        </header>
+
+        <!-- 新規申請フォーム -->
+        <div id="newRequestForm" class="section">
+            <div class="step-container">
+                <!-- ステップ1: CSVアップロード -->
+                <div class="step" id="step1">
+                    <h2>ステップ 1: PCリストのアップロード</h2>
+                    <div class="form-group">
+                        <label for="csvFile">CSVファイル:</label>
+                        <div class="file-input-container">
+                            <input type="file" id="csvFile" accept=".csv" required>
+                            <button onclick="importCSV()" class="import-btn">CSVインポート</button>
+                            <button onclick="downloadSampleCSV()" class="download-btn">
+                                <span class="download-icon">📥</span>
+                                サンプルCSVをダウンロード
+                            </button>
+                        </div>
+                    </div>
+                    <div id="csvPreview" class="preview-container"></div>
+                    <button onclick="validateAndProceed()" class="next-btn hidden">次へ</button>
+                </div>
+
+                <!-- ステップ2: セットアップオプション選択 -->
+                <div class="step hidden" id="step2">
+                    <h2>ステップ 2: セットアップ項目の選択</h2>
+                    <div class="setup-options">
+                        <!-- OS設定 -->
+                        <div class="option-group">
+                            <div class="option-header">
+                                <h3>OS設定</h3>
+                                <label class="select-all-label">
+                                    <input type="checkbox" class="select-all" data-group="os">
+                                    一括選択
+                                </label>
+                            </div>
+                            <label>
+                                <input type="checkbox" name="setup_desktop_icons">
+                                デスクトップアイコンの表示設定
+                            </label>
+                            <label>
+                                <input type="checkbox" name="move_vpn_icon">
+                                インジケーター内のFortiClientVPNを横へ移動
+                            </label>
+                            <label>
+                                <input type="checkbox" name="disable_ipv6">
+                                IPv6の無効化
+                            </label>
+                            <label>
+                                <input type="checkbox" name="disable_defender">
+                                Windows Defenderファイアウォールの無効化
+                            </label>
+                            <label>
+                                <input type="checkbox" name="unpin_mail_store">
+                                Mail、Storeのピン留めを外す
+                            </label>
+                            <label>
+                                <input type="checkbox" name="setup_edge_defaults">
+                                Edgeのデフォルトサイト設定
+                            </label>
+                            <label>
+                                <input type="checkbox" name="set_edge_as_default">
+                                Edgeの既定のブラウザ設定
+                            </label>
+                            <label>
+                                <input type="checkbox" name="setup_default_mail">
+                                既定のプログラム設定(メール、Webブラウザ)
+                            </label>
+                            <label>
+                                <input type="checkbox" name="setup_default_pdf">
+                                既定のプログラム設定(.pdf、.pdx)
+                            </label>
+                        </div>
+
+                        <!-- Microsoft 365 -->
+                        <div class="option-group">
+                            <div class="option-header">
+                                <h3>Microsoft 365</h3>
+                                <label class="select-all-label">
+                                    <input type="checkbox" class="select-all" data-group="office">
+                                    一括選択
+                                </label>
+                            </div>
+                            <label>
+                                <input type="checkbox" name="install_office">
+                                インストール(ODT使用)
+                            </label>
+                            <label>
+                                <input type="checkbox" name="setup_office_auth">
+                                認証設定
+                            </label>
+                            <label>
+                                <input type="checkbox" name="configure_office_apps">
+                                アプリケーション設定
+                            </label>
+                        </div>
+
+                        <!-- アプリケーションインストール -->
+                        <div class="option-group">
+                            <div class="option-header">
+                                <h3>アプリケーションインストール</h3>
+                                <label class="select-all-label">
+                                    <input type="checkbox" class="select-all" data-group="apps">
+                                    一括選択
+                                </label>
+                            </div>
+                            <label>
+                                <input type="checkbox" name="install_dvd_software">
+                                DVDソフトウェア
+                            </label>
+                            <label>
+                                <input type="checkbox" name="install_carbon_black">
+                                Carbon Black
+                            </label>
+                            <label>
+                                <input type="checkbox" name="install_forticlient_vpn">
+                                FortiClient VPN
+                            </label>
+                            <label>
+                                <input type="checkbox" name="install_ares_standard">
+                                ARES Standard
+                            </label>
+                            <label>
+                                <input type="checkbox" name="install_apex_one">
+                                TrendMicro ApexOne
+                            </label>
+                            <label>
+                                <input type="checkbox" name="install_virus_buster">
+                                TrendMicro ウィルスバスターCloud
+                            </label>
+                        </div>
+
+                        <!-- システム更新 -->
+                        <div class="option-group">
+                            <div class="option-header">
+                                <h3>システム更新</h3>
+                                <label class="select-all-label">
+                                    <input type="checkbox" class="select-all" data-group="system">
+                                    一括選択
+                                </label>
+                            </div>
+                            <label>
+                                <input type="checkbox" name="update_office">
+                                Microsoft 365 アップデート
+                            </label>
+                            <label>
+                                <input type="checkbox" name="update_windows">
+                                Windows Update
+                            </label>
+                            <label>
+                                <input type="checkbox" name="cleanup_system">
+                                システムクリーンアップ&ディスククリーンアップ
+                            </label>
+                            <label>
+                                <input type="checkbox" name="restart_system">
+                                再起動
+                            </label>
+                        </div>
+                    </div>
+                    <div class="button-group">
+                        <button onclick="backToStep1()" class="back-btn">戻る</button>
+                        <button onclick="submitSetupRequest()" class="submit-btn">申請</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 申請一覧 -->
+        <div id="requestList" class="section hidden">
+            <h2>申請一覧</h2>
+            <div class="filter-container">
+                <label for="statusFilter">ステータスフィルター:</label>
+                <select id="statusFilter">
+                    <option value="">すべてのステータス</option>
+                    <option value="pending">承認待ち</option>
+                    <option value="approved">承認済み</option>
+                    <option value="rejected">却下</option>
+                    <option value="in_progress">実行中</option>
+                    <option value="completed">完了</option>
+                    <option value="failed">失敗</option>
+                </select>
+                <label for="requesterFilter">申請者フィルター:</label>
+                <input type="text" id="requesterFilter" placeholder="申請者名で検索">
+            </div>
+            <div id="requestListContent" class="list-container"></div>
+        </div>
+
+        <!-- ステータス表示モーダル -->
+        <div id="statusModal" class="modal hidden">
+            <div class="modal-content">
+                <button onclick="closeModal()" class="close-btn">&times;</button>
+                <div id="progressContainer"></div>
+                <div id="logContainer"></div>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
