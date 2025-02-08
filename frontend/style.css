@@ -1,6 +1,6 @@
 /* 基本スタイル */
 :root {
-    --primary-color: #007bff;
+    --primary-color: #4a90e2;
     --secondary-color: #6c757d;
     --success-color: #28a745;
     --danger-color: #dc3545;
@@ -9,6 +9,7 @@
     --light-color: #f8f9fa;
     --dark-color: #343a40;
     --border-color: #dee2e6;
+    --background-color: #f0f2f5;
 }
 
 * {
@@ -21,20 +22,13 @@ body {
     font-family: 'Segoe UI', 'メイリオ', sans-serif;
     line-height: 1.6;
     color: var(--dark-color);
-    background-color: var(--light-color);
+    background-color: var(--background-color);
 }
 
 .container {
-    max-width: 2000px; /* コンテナ幅をさらに拡大 */
+    max-width: 2000px;
     margin: 0 auto;
     padding: 20px;
-}
-
-/* インポート結果のコンテナ幅を調整 */
-.import-status {
-    width: 100%;
-    max-width: 1900px;
-    margin: 20px auto;
 }
 
 /* ヘッダー */
@@ -82,7 +76,22 @@ button:hover:not(.active) {
     background-color: var(--border-color);
 }
 
-/* フォーム要素 */
+/* ログインフォーム */
+#loginForm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#loginForm h2 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
 .form-group {
     margin-bottom: 20px;
 }
@@ -91,6 +100,39 @@ label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
+    color: var(--dark-color);
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #3a7bc8;
 }
 
 .file-input-container {
@@ -569,14 +611,83 @@ input[type="file"]:hover {
     font-size: 14px;
     font-weight: bold;
     color: white;
+    margin: 0 4px;
 }
 
+/* ステータスバッジのスタイル */
 .status-pending { background-color: var(--warning-color); }
 .status-approved { background-color: var(--success-color); }
 .status-rejected { background-color: var(--danger-color); }
 .status-in-progress { background-color: var(--info-color); }
 .status-completed { background-color: var(--success-color); }
 .status-failed { background-color: var(--danger-color); }
+.status-warning { background-color: var(--warning-color); }
+.status-skipped { background-color: var(--secondary-color); }
+.status-partially-failed { background-color: #e67e22; }
+.status-rollback { background-color: #9b59b6; }
+.status-rollback-failed { background-color: #c0392b; }
+
+/* エラー重要度のスタイル */
+.severity-info { border-left: 4px solid var(--info-color); }
+.severity-warning { border-left: 4px solid var(--warning-color); }
+.severity-error { border-left: 4px solid var(--danger-color); }
+.severity-critical { border-left: 4px solid #c0392b; }
+
+/* タスク実行時間の表示 */
+.time-info {
+    color: var(--secondary-color);
+    font-size: 0.9em;
+    margin: 8px 0;
+    text-align: right;
+}
+
+/* エラー詳細の表示 */
+.error-details {
+    margin-top: 12px;
+    padding: 12px;
+    background-color: #fff5f5;
+    border-radius: 4px;
+}
+
+.error-title {
+    color: var(--danger-color);
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.error-message {
+    background-color: white;
+    padding: 8px;
+    border-radius: 4px;
+    font-family: monospace;
+    white-space: pre-wrap;
+    margin-bottom: 12px;
+    font-size: 0.9em;
+}
+
+.resolution-title {
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.resolution-steps {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.resolution-steps li {
+    padding: 4px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.resolution-steps li:before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+}
 
 /* 設定方法の説明 */
 .setup-instructions {

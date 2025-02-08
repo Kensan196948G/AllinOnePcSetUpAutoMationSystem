@@ -2,22 +2,40 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' https://cdnjs.cloudflare.com; font-src 'self' https://cdnjs.cloudflare.com; connect-src 'self';">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PCセットアップ自動化システム</title>
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>PCセットアップ自動化システム</h1>
-            <nav>
-                <button id="newRequestBtn" class="active">新規申請</button>
-                <button id="requestListBtn">申請一覧</button>
+            <h1><i class="fas fa-laptop-code"></i> PCセットアップ自動化システム</h1>
+            <nav id="mainNav" class="hidden">
+                <button id="newRequestBtn" class="active"><i class="fas fa-plus-circle"></i> 新規申請</button>
+                <button id="requestListBtn"><i class="fas fa-list"></i> 申請一覧</button>
             </nav>
+            <div id="userInfo" class="hidden"></div>
+            <button id="logoutBtn" class="hidden"><i class="fas fa-sign-out-alt"></i> ログアウト</button>
         </header>
 
+        <!-- ログインフォーム -->
+        <form id="loginForm" class="section" onsubmit="login(event)">
+            <h2><i class="fas fa-user-lock"></i> ログイン</h2>
+            <div class="form-group">
+                <label for="username"><i class="fas fa-user"></i> ユーザー名:</label>
+                <input type="text" id="username" name="username" autocomplete="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password"><i class="fas fa-key"></i> パスワード:</label>
+                <input type="password" id="password" name="password" autocomplete="current-password" required>
+            </div>
+            <button type="submit" class="btn-primary"><i class="fas fa-sign-in-alt"></i> ログイン</button>
+        </form>
+
         <!-- 新規申請フォーム -->
-        <div id="newRequestForm" class="section">
+        <div id="newRequestForm" class="section hidden">
             <div class="step-container">
                 <!-- ステップ1: CSVアップロード -->
                 <div class="step" id="step1">
@@ -26,15 +44,15 @@
                         <label for="csvFile">CSVファイル:</label>
                         <div class="file-input-container">
                             <input type="file" id="csvFile" accept=".csv" required>
-                            <button onclick="importCSV()" class="import-btn">CSVインポート</button>
-                            <button onclick="downloadSampleCSV()" class="download-btn">
+                            <button id="importCsvBtn" class="import-btn">CSVインポート</button>
+                            <button id="downloadSampleCsvBtn" class="download-btn">
                                 <span class="download-icon">📥</span>
                                 サンプルCSVをダウンロード
                             </button>
                         </div>
                     </div>
                     <div id="csvPreview" class="preview-container"></div>
-                    <button onclick="validateAndProceed()" class="next-btn hidden">次へ</button>
+                    <button id="validateAndProceedBtn" class="next-btn hidden">次へ</button>
                 </div>
 
                 <!-- ステップ2: セットアップオプション選択 -->
@@ -174,8 +192,8 @@
                         </div>
                     </div>
                     <div class="button-group">
-                        <button onclick="backToStep1()" class="back-btn">戻る</button>
-                        <button onclick="submitSetupRequest()" class="submit-btn">申請</button>
+                        <button id="backToStep1Btn" class="back-btn">戻る</button>
+                        <button id="submitSetupBtn" class="submit-btn">申請</button>
                     </div>
                 </div>
             </div>
@@ -204,12 +222,13 @@
         <!-- ステータス表示モーダル -->
         <div id="statusModal" class="modal hidden">
             <div class="modal-content">
-                <button onclick="closeModal()" class="close-btn">&times;</button>
+                <button id="closeModalBtn" class="close-btn">&times;</button>
                 <div id="progressContainer"></div>
                 <div id="logContainer"></div>
             </div>
         </div>
     </div>
+    <script src="/auth.js"></script>
     <script src="/script.js"></script>
 </body>
 </html>

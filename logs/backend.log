@@ -217,3 +217,1160 @@
 2025-02-07 22:41:46,538 - multipart.multipart - DEBUG - Calling on_part_data with data[0:2]
 2025-02-07 22:41:46,539 - multipart.multipart - DEBUG - Calling on_part_end with no data
 2025-02-07 22:41:46,540 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 15:06:49,411 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 15:07:33,156 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 15:08:09,220 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 15:12:32,336 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 15:12:32,338 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 15:14:22,055 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 15:14:22,056 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 15:14:22,057 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 15:14:22,057 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 15:14:22,058 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 15:14:22,059 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 15:14:22,059 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 15:14:22,060 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 15:14:22,061 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 15:14:26,698 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 15:14:26,698 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 15:14:26,699 - multipart.multipart - DEBUG - Calling on_field_data with data[9:13]
+2025-02-08 15:14:26,700 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 15:14:26,700 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 15:14:26,701 - multipart.multipart - DEBUG - Calling on_field_name with data[14:22]
+2025-02-08 15:14:26,702 - multipart.multipart - DEBUG - Calling on_field_data with data[23:35]
+2025-02-08 15:14:26,702 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 15:14:26,702 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 15:17:35,717 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 15:18:44,007 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 15:28:20,151 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 15:29:19,817 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 15:37:54,278 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 15:37:54,279 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 15:37:54,280 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 15:37:54,281 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 15:37:54,282 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 15:37:54,283 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 15:37:54,283 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 15:37:54,284 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 15:37:54,285 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 15:37:54,356 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 15:37:54,356 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 15:38:31,832 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 15:38:31,833 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 15:38:31,834 - multipart.multipart - DEBUG - Calling on_field_data with data[9:13]
+2025-02-08 15:38:31,835 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 15:38:31,836 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 15:38:31,836 - multipart.multipart - DEBUG - Calling on_field_name with data[14:22]
+2025-02-08 15:38:31,837 - multipart.multipart - DEBUG - Calling on_field_data with data[23:35]
+2025-02-08 15:38:31,837 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 15:38:31,838 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 15:43:24,736 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 15:45:58,801 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 15:46:24,536 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 15:56:55,295 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 15:56:55,296 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 15:56:55,297 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 15:56:55,298 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 15:56:55,298 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 15:56:55,299 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 15:56:55,299 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 15:56:55,300 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 15:56:55,301 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 15:56:55,372 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 15:56:55,374 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 15:57:23,098 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 15:57:23,100 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 15:57:23,100 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 15:57:23,101 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 15:57:23,102 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 15:57:23,102 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 15:57:23,103 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 15:57:23,103 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 15:57:23,104 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 15:58:42,465 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 15:58:42,466 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 15:58:42,467 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 15:58:42,468 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 15:58:42,468 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 15:58:42,469 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 15:58:42,469 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 15:58:42,470 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 15:58:42,470 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 16:02:38,252 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 16:03:23,453 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 16:06:20,965 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 16:06:20,966 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 16:06:20,967 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 16:06:20,967 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 16:06:20,968 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 16:06:20,969 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 16:06:20,969 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 16:06:20,970 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 16:06:20,971 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 16:06:21,043 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 16:06:21,045 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 16:08:59,854 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 16:09:59,959 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 16:10:32,216 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 16:10:32,216 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 16:10:32,218 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 16:10:32,218 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 16:10:32,218 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 16:10:32,220 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 16:10:32,220 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 16:10:32,221 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 16:10:32,222 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 16:10:32,284 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 16:10:32,287 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 16:13:13,597 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 16:13:58,878 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 16:14:25,314 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 16:14:25,316 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 16:14:25,317 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 16:14:25,317 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 16:14:25,318 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 16:14:25,318 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 16:14:25,319 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 16:14:25,320 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 16:14:25,320 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 16:14:25,394 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 16:14:25,396 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 16:17:17,002 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 16:18:29,747 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 16:19:16,690 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 16:19:16,692 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 16:19:16,692 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 16:19:16,693 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 16:19:16,693 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 16:19:16,694 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 16:19:16,695 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 16:19:16,695 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 16:19:16,696 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 16:19:16,768 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 16:19:16,770 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 16:22:15,852 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 16:23:05,457 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 16:25:20,285 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 16:26:14,447 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 16:26:42,144 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 16:26:42,145 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 16:26:42,146 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 16:26:42,146 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 16:26:42,147 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 16:26:42,148 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 16:26:42,148 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 16:26:42,149 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 16:26:42,150 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 16:26:42,213 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 16:26:42,214 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 16:26:51,478 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-02-08 16:26:51,479 - multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2025-02-08 16:26:51,480 - multipart.multipart - DEBUG - Calling on_header_value with data[63:139]
+2025-02-08 16:26:51,482 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 16:26:51,482 - multipart.multipart - DEBUG - Calling on_header_field with data[141:153]
+2025-02-08 16:26:51,483 - multipart.multipart - DEBUG - Calling on_header_value with data[155:163]
+2025-02-08 16:26:51,483 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 16:26:51,484 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-02-08 16:26:51,485 - multipart.multipart - DEBUG - Calling on_part_data with data[167:1482]
+2025-02-08 16:26:51,485 - multipart.multipart - DEBUG - Calling on_part_data with data[0:2]
+2025-02-08 16:26:51,486 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-02-08 16:26:51,487 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 16:26:51,489 - backend.utils - ERROR - CSVパースエラー: 'login_type'
+2025-02-08 16:28:52,896 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 16:28:52,897 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 16:28:52,898 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 16:28:52,899 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 16:28:52,900 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 16:28:52,901 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 16:28:52,902 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 16:28:52,903 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 16:28:52,904 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 16:29:19,895 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 16:31:10,578 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 16:32:03,853 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 16:32:03,854 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 16:32:03,854 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 16:32:03,855 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 16:32:03,857 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 16:32:03,858 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 16:32:03,859 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 16:32:03,860 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 16:32:03,861 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 16:32:03,933 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 16:32:03,934 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 16:32:13,179 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-02-08 16:32:13,180 - multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2025-02-08 16:32:13,180 - multipart.multipart - DEBUG - Calling on_header_value with data[63:139]
+2025-02-08 16:32:13,181 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 16:32:13,183 - multipart.multipart - DEBUG - Calling on_header_field with data[141:153]
+2025-02-08 16:32:13,183 - multipart.multipart - DEBUG - Calling on_header_value with data[155:163]
+2025-02-08 16:32:13,184 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 16:32:13,185 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-02-08 16:32:13,186 - multipart.multipart - DEBUG - Calling on_part_data with data[167:1482]
+2025-02-08 16:32:13,188 - multipart.multipart - DEBUG - Calling on_part_data with data[0:2]
+2025-02-08 16:32:13,189 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-02-08 16:32:13,190 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 16:32:13,192 - backend.utils - ERROR - CSVパースエラー: 'ログイン種別'
+2025-02-08 16:33:06,986 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-02-08 16:33:06,987 - multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2025-02-08 16:33:06,987 - multipart.multipart - DEBUG - Calling on_header_value with data[63:138]
+2025-02-08 16:33:06,990 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 16:33:06,992 - multipart.multipart - DEBUG - Calling on_header_field with data[140:152]
+2025-02-08 16:33:06,993 - multipart.multipart - DEBUG - Calling on_header_value with data[154:162]
+2025-02-08 16:33:06,994 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 16:33:06,995 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-02-08 16:33:06,996 - multipart.multipart - DEBUG - Calling on_part_data with data[166:1122]
+2025-02-08 16:33:06,997 - multipart.multipart - DEBUG - Calling on_part_data with data[0:2]
+2025-02-08 16:33:06,998 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-02-08 16:33:06,998 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 16:33:07,000 - backend.utils - ERROR - CSVパースエラー: 'ログイン種別'
+2025-02-08 16:33:14,686 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-02-08 16:33:14,688 - multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2025-02-08 16:33:14,688 - multipart.multipart - DEBUG - Calling on_header_value with data[63:139]
+2025-02-08 16:33:14,690 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 16:33:14,690 - multipart.multipart - DEBUG - Calling on_header_field with data[141:153]
+2025-02-08 16:33:14,691 - multipart.multipart - DEBUG - Calling on_header_value with data[155:163]
+2025-02-08 16:33:14,692 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 16:33:14,692 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-02-08 16:33:14,694 - multipart.multipart - DEBUG - Calling on_part_data with data[167:1181]
+2025-02-08 16:33:14,698 - multipart.multipart - DEBUG - Calling on_part_data with data[0:2]
+2025-02-08 16:33:14,700 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-02-08 16:33:14,701 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 16:33:14,702 - backend.utils - ERROR - CSVパースエラー: 'ログイン種別'
+2025-02-08 16:33:55,492 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 16:35:04,121 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 16:35:28,706 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 16:35:28,708 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 16:35:28,708 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 16:35:28,709 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 16:35:28,709 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 16:35:28,710 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 16:35:28,710 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 16:35:28,711 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 16:35:28,711 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 16:35:28,782 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 16:35:28,784 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 16:35:35,890 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-02-08 16:35:35,891 - multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2025-02-08 16:35:35,892 - multipart.multipart - DEBUG - Calling on_header_value with data[63:139]
+2025-02-08 16:35:35,893 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 16:35:35,894 - multipart.multipart - DEBUG - Calling on_header_field with data[141:153]
+2025-02-08 16:35:35,895 - multipart.multipart - DEBUG - Calling on_header_value with data[155:163]
+2025-02-08 16:35:35,896 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 16:35:35,898 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-02-08 16:35:35,899 - multipart.multipart - DEBUG - Calling on_part_data with data[167:1482]
+2025-02-08 16:35:35,900 - multipart.multipart - DEBUG - Calling on_part_data with data[0:2]
+2025-02-08 16:35:35,902 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-02-08 16:35:35,903 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 16:35:35,904 - backend.utils - ERROR - CSVパースエラー: 不正なログインタイプです: None
+有効な値: AD, 既存ローカル, 新規ローカル
+2025-02-08 16:39:43,318 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 16:40:34,344 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 16:42:56,842 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 16:42:56,843 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 16:42:56,844 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 16:42:56,844 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 16:42:56,846 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 16:42:56,847 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 16:42:56,847 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 16:42:56,848 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 16:42:56,849 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 16:42:56,923 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 16:42:56,924 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 16:43:04,933 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-02-08 16:43:04,934 - multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2025-02-08 16:43:04,935 - multipart.multipart - DEBUG - Calling on_header_value with data[63:139]
+2025-02-08 16:43:04,936 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 16:43:04,937 - multipart.multipart - DEBUG - Calling on_header_field with data[141:153]
+2025-02-08 16:43:04,938 - multipart.multipart - DEBUG - Calling on_header_value with data[155:163]
+2025-02-08 16:43:04,938 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 16:43:04,939 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-02-08 16:43:04,940 - multipart.multipart - DEBUG - Calling on_part_data with data[167:1482]
+2025-02-08 16:43:04,941 - multipart.multipart - DEBUG - Calling on_part_data with data[0:2]
+2025-02-08 16:43:04,942 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-02-08 16:43:04,943 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 16:43:04,944 - backend.utils - ERROR - CSVパースエラー: 不正なログインタイプです: 
+有効な値: AD, 既存ローカル, 新規ローカル
+2025-02-08 16:47:33,179 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 16:48:23,386 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 16:50:15,453 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 16:50:15,454 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 16:50:15,454 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 16:50:15,455 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 16:50:15,456 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 16:50:15,456 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 16:50:15,457 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 16:50:15,458 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 16:50:15,459 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 16:50:15,536 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 16:50:15,537 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 16:50:23,116 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-02-08 16:50:23,121 - multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2025-02-08 16:50:23,122 - multipart.multipart - DEBUG - Calling on_header_value with data[63:139]
+2025-02-08 16:50:23,123 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 16:50:23,124 - multipart.multipart - DEBUG - Calling on_header_field with data[141:153]
+2025-02-08 16:50:23,125 - multipart.multipart - DEBUG - Calling on_header_value with data[155:163]
+2025-02-08 16:50:23,126 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 16:50:23,127 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-02-08 16:50:23,129 - multipart.multipart - DEBUG - Calling on_part_data with data[167:1482]
+2025-02-08 16:50:23,130 - multipart.multipart - DEBUG - Calling on_part_data with data[0:2]
+2025-02-08 16:50:23,131 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-02-08 16:50:23,132 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 16:50:23,133 - backend.utils - ERROR - CSVパースエラー: 不正なログインタイプです: 
+有効な値: AD, 既存ローカル, 新規ローカル
+2025-02-08 16:51:44,061 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 16:53:13,971 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 16:53:51,489 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 16:53:51,489 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 16:53:51,491 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 16:53:51,491 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 16:53:51,492 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 16:53:51,492 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 16:53:51,493 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 16:53:51,494 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 16:53:51,494 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 16:53:51,563 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 16:53:51,565 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 16:54:01,816 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-02-08 16:54:01,817 - multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2025-02-08 16:54:01,818 - multipart.multipart - DEBUG - Calling on_header_value with data[63:139]
+2025-02-08 16:54:01,818 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 16:54:01,819 - multipart.multipart - DEBUG - Calling on_header_field with data[141:153]
+2025-02-08 16:54:01,819 - multipart.multipart - DEBUG - Calling on_header_value with data[155:163]
+2025-02-08 16:54:01,819 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 16:54:01,821 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-02-08 16:54:01,821 - multipart.multipart - DEBUG - Calling on_part_data with data[167:1482]
+2025-02-08 16:54:01,822 - multipart.multipart - DEBUG - Calling on_part_data with data[0:2]
+2025-02-08 16:54:01,823 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-02-08 16:54:01,823 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 16:54:01,824 - backend.utils - ERROR - 不正なログインタイプです: 
+2025-02-08 16:54:01,826 - backend.utils - ERROR - 行の内容: {'PC004(サンプル)': '202501010M', '192.168.1.13': '172.23.10.20', '新規ローカル': '既存ローカル', '': 'mirai', '山田太郎': '', 'taro-yama': '', 'pass123': '', 'Yes': ''}
+2025-02-08 16:54:01,829 - backend.utils - ERROR - CSVパースエラー: 不正なログインタイプです: 
+有効な値: AD, 既存ローカル, 新規ローカル
+2025-02-08 16:58:27,256 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 16:59:15,218 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 16:59:41,504 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 16:59:41,505 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 16:59:41,505 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 16:59:41,506 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 16:59:41,507 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 16:59:41,508 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 16:59:41,508 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 16:59:41,510 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 16:59:41,510 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 16:59:41,590 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 16:59:41,592 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 16:59:52,524 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-02-08 16:59:52,524 - multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2025-02-08 16:59:52,525 - multipart.multipart - DEBUG - Calling on_header_value with data[63:139]
+2025-02-08 16:59:52,526 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 16:59:52,526 - multipart.multipart - DEBUG - Calling on_header_field with data[141:153]
+2025-02-08 16:59:52,526 - multipart.multipart - DEBUG - Calling on_header_value with data[155:163]
+2025-02-08 16:59:52,527 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 16:59:52,527 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-02-08 16:59:52,528 - multipart.multipart - DEBUG - Calling on_part_data with data[167:1482]
+2025-02-08 16:59:52,530 - multipart.multipart - DEBUG - Calling on_part_data with data[0:2]
+2025-02-08 16:59:52,531 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-02-08 16:59:52,532 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 16:59:52,588 - backend.utils - INFO - ヘッダー: ['PC004(サンプル)', '192.168.1.13', '新規ローカル', '', '', '', '', '山田太郎', 'taro-yama', 'pass123', 'Yes']
+2025-02-08 16:59:52,591 - backend.utils - ERROR - 不正なログインタイプです: 
+2025-02-08 16:59:52,592 - backend.utils - ERROR - 行の内容: {'PC004(サンプル)': '202501010M', '192.168.1.13': '172.23.10.20', '新規ローカル': '既存ローカル', '': 'mirai', '山田太郎': '', 'taro-yama': '', 'pass123': '', 'Yes': ''}
+2025-02-08 16:59:52,593 - backend.utils - ERROR - 利用可能なキー: dict_keys(['PC004(サンプル)', '192.168.1.13', '新規ローカル', '', '山田太郎', 'taro-yama', 'pass123', 'Yes'])
+2025-02-08 16:59:52,594 - backend.utils - ERROR - CSVパースエラー: 不正なログインタイプです: 
+有効な値: AD, 既存ローカル, 新規ローカル
+2025-02-08 17:02:45,954 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 17:03:59,817 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 17:04:50,980 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 17:04:50,981 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 17:04:50,982 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 17:04:50,982 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 17:04:50,983 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 17:04:50,984 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 17:04:50,984 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 17:04:50,986 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 17:04:50,987 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 17:04:51,066 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 17:04:51,068 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 17:05:07,251 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-02-08 17:05:07,252 - multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2025-02-08 17:05:07,253 - multipart.multipart - DEBUG - Calling on_header_value with data[63:139]
+2025-02-08 17:05:07,254 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 17:05:07,254 - multipart.multipart - DEBUG - Calling on_header_field with data[141:153]
+2025-02-08 17:05:07,256 - multipart.multipart - DEBUG - Calling on_header_value with data[155:163]
+2025-02-08 17:05:07,257 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 17:05:07,258 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-02-08 17:05:07,258 - multipart.multipart - DEBUG - Calling on_part_data with data[167:1482]
+2025-02-08 17:05:07,259 - multipart.multipart - DEBUG - Calling on_part_data with data[0:2]
+2025-02-08 17:05:07,260 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-02-08 17:05:07,260 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 17:05:07,262 - backend.utils - INFO - ヘッダー: ['PC004(サンプル)', '192.168.1.13', '新規ローカル', '山田太郎', 'taro-yama', 'pass123', 'Yes']
+2025-02-08 17:05:07,266 - backend.utils - ERROR - CSVパースエラー: ヘッダーに'ログイン種別'または'login_type'が見つかりません
+2025-02-08 17:07:10,032 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 17:07:54,436 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 17:08:46,143 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 17:08:46,145 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 17:08:46,145 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 17:08:46,146 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 17:08:46,146 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 17:08:46,148 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 17:08:46,148 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 17:08:46,149 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 17:08:46,150 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 17:08:46,242 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 17:08:46,243 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 17:08:55,380 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-02-08 17:08:55,381 - multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2025-02-08 17:08:55,382 - multipart.multipart - DEBUG - Calling on_header_value with data[63:139]
+2025-02-08 17:08:55,382 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 17:08:55,383 - multipart.multipart - DEBUG - Calling on_header_field with data[141:153]
+2025-02-08 17:08:55,384 - multipart.multipart - DEBUG - Calling on_header_value with data[155:163]
+2025-02-08 17:08:55,384 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 17:08:55,385 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-02-08 17:08:55,386 - multipart.multipart - DEBUG - Calling on_part_data with data[167:1482]
+2025-02-08 17:08:55,386 - multipart.multipart - DEBUG - Calling on_part_data with data[0:2]
+2025-02-08 17:08:55,387 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-02-08 17:08:55,388 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 17:08:55,400 - backend.utils - INFO - ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']
+2025-02-08 17:08:55,402 - backend.utils - ERROR - CSVパースエラー: ヘッダーに'ログイン種別'または'login_type'が見つかりません
+2025-02-08 17:13:48,924 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 17:15:08,820 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 17:15:35,003 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 17:15:35,004 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 17:15:35,005 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 17:15:35,006 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 17:15:35,007 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 17:15:35,007 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 17:15:35,008 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 17:15:35,009 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 17:15:35,010 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 17:15:35,101 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 17:15:35,102 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 17:15:46,316 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-02-08 17:15:46,317 - multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2025-02-08 17:15:46,318 - multipart.multipart - DEBUG - Calling on_header_value with data[63:139]
+2025-02-08 17:15:46,318 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 17:15:46,320 - multipart.multipart - DEBUG - Calling on_header_field with data[141:153]
+2025-02-08 17:15:46,320 - multipart.multipart - DEBUG - Calling on_header_value with data[155:163]
+2025-02-08 17:15:46,321 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 17:15:46,322 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-02-08 17:15:46,323 - multipart.multipart - DEBUG - Calling on_part_data with data[167:1482]
+2025-02-08 17:15:46,324 - multipart.multipart - DEBUG - Calling on_part_data with data[0:2]
+2025-02-08 17:15:46,325 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-02-08 17:15:46,326 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 17:15:46,328 - backend.utils - INFO - ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']
+2025-02-08 17:15:46,330 - backend.utils - INFO - データ行数: 10
+2025-02-08 17:15:46,331 - backend.utils - INFO - ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']
+2025-02-08 17:15:46,332 - backend.utils - INFO - ログインタイプヘッダー: ログインタイプ
+2025-02-08 17:15:46,335 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 17:15:46,337 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 17:15:46,338 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 17:15:46,342 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 17:15:46,345 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 17:15:46,347 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 17:15:46,348 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 17:15:46,349 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 17:15:46,351 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 17:15:46,353 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 17:16:52,555 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 17:16:52,556 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 17:16:52,557 - multipart.multipart - DEBUG - Calling on_field_data with data[9:13]
+2025-02-08 17:16:52,559 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 17:16:52,560 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 17:16:52,560 - multipart.multipart - DEBUG - Calling on_field_name with data[14:22]
+2025-02-08 17:16:52,561 - multipart.multipart - DEBUG - Calling on_field_data with data[23:35]
+2025-02-08 17:16:52,562 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 17:16:52,563 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 17:17:18,229 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 17:17:18,229 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 17:17:18,230 - multipart.multipart - DEBUG - Calling on_field_data with data[9:13]
+2025-02-08 17:17:18,231 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 17:17:18,231 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 17:17:18,232 - multipart.multipart - DEBUG - Calling on_field_name with data[14:22]
+2025-02-08 17:17:18,233 - multipart.multipart - DEBUG - Calling on_field_data with data[23:35]
+2025-02-08 17:17:18,233 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 17:17:18,234 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 17:17:25,250 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-02-08 17:17:25,251 - multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2025-02-08 17:17:25,251 - multipart.multipart - DEBUG - Calling on_header_value with data[63:139]
+2025-02-08 17:17:25,251 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 17:17:25,252 - multipart.multipart - DEBUG - Calling on_header_field with data[141:153]
+2025-02-08 17:17:25,253 - multipart.multipart - DEBUG - Calling on_header_value with data[155:163]
+2025-02-08 17:17:25,253 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 17:17:25,254 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-02-08 17:17:25,254 - multipart.multipart - DEBUG - Calling on_part_data with data[167:1482]
+2025-02-08 17:17:25,255 - multipart.multipart - DEBUG - Calling on_part_data with data[0:2]
+2025-02-08 17:17:25,256 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-02-08 17:17:25,257 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 17:17:25,258 - backend.utils - INFO - ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']
+2025-02-08 17:17:25,259 - backend.utils - INFO - データ行数: 10
+2025-02-08 17:17:25,261 - backend.utils - INFO - ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']
+2025-02-08 17:17:25,263 - backend.utils - INFO - ログインタイプヘッダー: ログインタイプ
+2025-02-08 17:17:25,265 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 17:17:25,266 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 17:17:25,267 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 17:17:25,269 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 17:17:25,271 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 17:17:25,271 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 17:17:25,273 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 17:17:25,276 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 17:17:25,278 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 17:17:25,279 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 17:23:00,185 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 17:23:48,122 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 17:24:39,034 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 17:24:39,035 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 17:24:39,036 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 17:24:39,036 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 17:24:39,037 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 17:24:39,037 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 17:24:39,038 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 17:24:39,039 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 17:24:39,039 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 17:24:47,607 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-02-08 17:24:47,609 - multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2025-02-08 17:24:47,610 - multipart.multipart - DEBUG - Calling on_header_value with data[63:139]
+2025-02-08 17:24:47,611 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 17:24:47,612 - multipart.multipart - DEBUG - Calling on_header_field with data[141:153]
+2025-02-08 17:24:47,613 - multipart.multipart - DEBUG - Calling on_header_value with data[155:163]
+2025-02-08 17:24:47,614 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 17:24:47,615 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-02-08 17:24:47,616 - multipart.multipart - DEBUG - Calling on_part_data with data[167:1482]
+2025-02-08 17:24:47,618 - multipart.multipart - DEBUG - Calling on_part_data with data[0:2]
+2025-02-08 17:24:47,619 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-02-08 17:24:47,620 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 17:24:47,621 - backend.utils - INFO - ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']
+2025-02-08 17:24:47,623 - backend.utils - INFO - データ行数: 10
+2025-02-08 17:24:47,625 - backend.utils - INFO - ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']
+2025-02-08 17:24:47,626 - backend.utils - INFO - ログインタイプヘッダー: ログインタイプ
+2025-02-08 17:24:47,627 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 17:24:47,628 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 17:24:47,636 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 17:24:47,638 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 17:24:47,640 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 17:24:47,641 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 17:24:47,644 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 17:24:47,648 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 17:24:47,649 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 17:24:47,651 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 18:29:18,238 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 18:29:18,246 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 18:29:18,247 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 18:29:18,248 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 18:29:18,249 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 18:29:18,249 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 18:29:18,250 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 18:29:18,251 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 18:29:18,251 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 18:29:18,314 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 18:29:18,406 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 18:58:28,201 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 18:58:28,249 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 18:58:28,250 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 18:58:28,252 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 18:58:28,253 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 18:58:28,254 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 18:58:28,255 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 18:58:28,256 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 18:58:28,257 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 18:58:28,287 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 18:58:28,289 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 18:58:39,356 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-02-08 18:58:39,357 - multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2025-02-08 18:58:39,358 - multipart.multipart - DEBUG - Calling on_header_value with data[63:139]
+2025-02-08 18:58:39,359 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 18:58:39,359 - multipart.multipart - DEBUG - Calling on_header_field with data[141:153]
+2025-02-08 18:58:39,360 - multipart.multipart - DEBUG - Calling on_header_value with data[155:163]
+2025-02-08 18:58:39,361 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 18:58:39,361 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-02-08 18:58:39,362 - multipart.multipart - DEBUG - Calling on_part_data with data[167:1482]
+2025-02-08 18:58:39,364 - multipart.multipart - DEBUG - Calling on_part_data with data[0:2]
+2025-02-08 18:58:39,366 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-02-08 18:58:39,367 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 18:58:39,370 - backend.utils - INFO - ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']
+2025-02-08 18:58:39,372 - backend.utils - INFO - データ行数: 10
+2025-02-08 18:58:39,373 - backend.utils - INFO - ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']
+2025-02-08 18:58:39,375 - backend.utils - INFO - ログインタイプヘッダー: ログインタイプ
+2025-02-08 18:58:39,377 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 18:58:39,378 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 18:58:39,384 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 18:58:39,391 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 18:58:39,392 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 18:58:39,393 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 18:58:39,395 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 18:58:39,403 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 18:58:39,406 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 18:58:39,407 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 19:00:50,619 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 19:00:50,661 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 19:00:50,664 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 19:00:50,666 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 19:00:50,667 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 19:00:50,668 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 19:00:50,669 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 19:00:50,670 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 19:00:50,672 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 19:21:28,659 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 19:21:28,660 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 19:21:28,661 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 19:21:28,661 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 19:21:28,662 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 19:21:28,663 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 19:21:28,664 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 19:21:28,664 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 19:21:28,666 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 19:22:47,315 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 19:22:47,316 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 19:22:47,317 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 19:22:47,318 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 19:22:47,319 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 19:22:47,320 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 19:22:47,321 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 19:22:47,321 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 19:22:47,323 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 19:22:48,597 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-02-08 19:22:48,598 - multipart.multipart - DEBUG - Calling on_header_field with data[50:69]
+2025-02-08 19:22:48,599 - multipart.multipart - DEBUG - Calling on_header_value with data[71:143]
+2025-02-08 19:22:48,600 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 19:22:48,601 - multipart.multipart - DEBUG - Calling on_header_field with data[145:157]
+2025-02-08 19:22:48,602 - multipart.multipart - DEBUG - Calling on_header_value with data[159:183]
+2025-02-08 19:22:48,603 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 19:22:48,603 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-02-08 19:22:48,604 - multipart.multipart - DEBUG - Calling on_part_data with data[187:1024]
+2025-02-08 19:22:48,604 - multipart.multipart - DEBUG - Calling on_part_data with data[0:2]
+2025-02-08 19:22:48,605 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-02-08 19:22:48,606 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 19:22:48,607 - backend.utils - INFO - ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与(YesまたはNo)']
+2025-02-08 19:22:48,609 - backend.utils - INFO - データ行数: 4
+2025-02-08 19:22:48,610 - backend.utils - INFO - ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与(YesまたはNo)']
+2025-02-08 19:22:48,610 - backend.utils - INFO - ログインタイプヘッダー: ログインタイプ
+2025-02-08 19:22:48,613 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 19:22:48,614 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 19:22:48,616 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 19:22:48,618 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 19:24:50,108 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 19:24:50,109 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 19:24:50,110 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 19:24:50,110 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 19:24:50,111 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 19:24:50,112 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 19:24:50,113 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 19:24:50,114 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 19:24:50,114 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 19:31:22,520 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 19:31:22,521 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 19:31:22,521 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 19:31:22,522 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 19:31:22,523 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 19:31:22,524 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 19:31:22,525 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 19:31:22,525 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 19:31:22,525 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 19:31:30,545 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-02-08 19:31:30,567 - multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2025-02-08 19:31:30,571 - multipart.multipart - DEBUG - Calling on_header_value with data[63:139]
+2025-02-08 19:31:30,573 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 19:31:30,573 - multipart.multipart - DEBUG - Calling on_header_field with data[141:153]
+2025-02-08 19:31:30,575 - multipart.multipart - DEBUG - Calling on_header_value with data[155:163]
+2025-02-08 19:31:30,576 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 19:31:30,577 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-02-08 19:31:30,578 - multipart.multipart - DEBUG - Calling on_part_data with data[167:1482]
+2025-02-08 19:31:30,578 - multipart.multipart - DEBUG - Calling on_part_data with data[0:2]
+2025-02-08 19:31:30,579 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-02-08 19:31:30,580 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 19:31:30,580 - backend.utils - INFO - ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']
+2025-02-08 19:31:30,582 - backend.utils - INFO - データ行数: 10
+2025-02-08 19:31:30,584 - backend.utils - INFO - ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']
+2025-02-08 19:31:30,586 - backend.utils - INFO - ログインタイプヘッダー: ログインタイプ
+2025-02-08 19:31:30,588 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 19:31:30,590 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 19:31:30,592 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 19:31:30,595 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 19:31:30,597 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 19:31:30,598 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 19:31:30,603 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 19:31:30,608 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 19:31:30,611 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 19:31:30,613 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 19:35:26,727 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 19:35:26,728 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 19:35:26,729 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 19:35:26,731 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 19:35:26,733 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 19:35:26,734 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 19:35:26,735 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 19:35:26,738 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 19:35:26,739 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 19:36:41,761 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 19:36:41,762 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 19:36:41,763 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 19:36:41,764 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 19:36:41,765 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 19:36:41,765 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 19:36:41,766 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 19:36:41,767 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 19:36:41,767 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 19:36:42,500 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-02-08 19:36:42,503 - multipart.multipart - DEBUG - Calling on_header_field with data[50:69]
+2025-02-08 19:36:42,504 - multipart.multipart - DEBUG - Calling on_header_value with data[71:143]
+2025-02-08 19:36:42,505 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 19:36:42,505 - multipart.multipart - DEBUG - Calling on_header_field with data[145:157]
+2025-02-08 19:36:42,506 - multipart.multipart - DEBUG - Calling on_header_value with data[159:183]
+2025-02-08 19:36:42,507 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 19:36:42,507 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-02-08 19:36:42,508 - multipart.multipart - DEBUG - Calling on_part_data with data[187:1207]
+2025-02-08 19:36:42,509 - multipart.multipart - DEBUG - Calling on_part_data with data[0:2]
+2025-02-08 19:36:42,510 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-02-08 19:36:42,511 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 19:36:42,511 - backend.utils - INFO - ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与(YesまたはNo)']
+2025-02-08 19:36:42,513 - backend.utils - INFO - データ行数: 6
+2025-02-08 19:36:42,514 - backend.utils - INFO - ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与(YesまたはNo)']
+2025-02-08 19:36:42,516 - backend.utils - INFO - ログインタイプヘッダー: ログインタイプ
+2025-02-08 19:36:42,518 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 19:36:42,521 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 19:36:42,523 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 19:36:42,524 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 19:36:42,526 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 19:36:42,527 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 19:38:49,032 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 19:38:49,033 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 19:38:49,035 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 19:38:49,035 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 19:38:49,037 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 19:38:49,038 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 19:38:49,040 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 19:38:49,043 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 19:38:49,044 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 19:40:05,828 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 19:40:05,828 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 19:40:05,829 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 19:40:05,830 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 19:40:05,831 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 19:40:05,831 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 19:40:05,832 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 19:40:05,833 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 19:40:05,833 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 19:40:13,362 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-02-08 19:40:13,364 - multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2025-02-08 19:40:13,364 - multipart.multipart - DEBUG - Calling on_header_value with data[63:139]
+2025-02-08 19:40:13,365 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 19:40:13,366 - multipart.multipart - DEBUG - Calling on_header_field with data[141:153]
+2025-02-08 19:40:13,367 - multipart.multipart - DEBUG - Calling on_header_value with data[155:163]
+2025-02-08 19:40:13,368 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 19:40:13,369 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-02-08 19:40:13,370 - multipart.multipart - DEBUG - Calling on_part_data with data[167:1482]
+2025-02-08 19:40:13,371 - multipart.multipart - DEBUG - Calling on_part_data with data[0:2]
+2025-02-08 19:40:13,372 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-02-08 19:40:13,374 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 19:40:13,375 - backend.utils - INFO - ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']
+2025-02-08 19:40:13,378 - backend.utils - INFO - データ行数: 10
+2025-02-08 19:40:13,380 - backend.utils - INFO - ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']
+2025-02-08 19:40:13,381 - backend.utils - INFO - ログインタイプヘッダー: ログインタイプ
+2025-02-08 19:40:13,383 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 19:40:13,384 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 19:40:13,387 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 19:40:13,390 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 19:40:13,393 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 19:40:13,396 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 19:40:13,398 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 19:40:13,399 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 19:40:13,402 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 19:40:13,404 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 19:47:24,693 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 19:47:24,695 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 19:47:24,695 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 19:47:24,696 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 19:47:24,697 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 19:47:24,698 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 19:47:24,698 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 19:47:24,699 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 19:47:24,700 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 19:47:24,732 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 19:47:24,733 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 19:47:33,466 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-02-08 19:47:33,468 - multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2025-02-08 19:47:33,469 - multipart.multipart - DEBUG - Calling on_header_value with data[63:139]
+2025-02-08 19:47:33,471 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 19:47:33,471 - multipart.multipart - DEBUG - Calling on_header_field with data[141:153]
+2025-02-08 19:47:33,473 - multipart.multipart - DEBUG - Calling on_header_value with data[155:163]
+2025-02-08 19:47:33,475 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 19:47:33,476 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-02-08 19:47:33,476 - multipart.multipart - DEBUG - Calling on_part_data with data[167:1482]
+2025-02-08 19:47:33,478 - multipart.multipart - DEBUG - Calling on_part_data with data[0:2]
+2025-02-08 19:47:33,479 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-02-08 19:47:33,480 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 19:47:33,485 - backend.utils - INFO - ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']
+2025-02-08 19:47:33,488 - backend.utils - INFO - データ行数: 6
+2025-02-08 19:47:33,491 - backend.utils - INFO - ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']
+2025-02-08 19:47:33,492 - backend.utils - INFO - ログインタイプヘッダー: ログインタイプ
+2025-02-08 19:47:33,495 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 19:47:33,538 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 19:47:33,541 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 19:47:33,545 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 19:47:33,549 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 19:47:33,553 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 19:52:20,098 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 19:52:20,099 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 19:52:20,102 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 19:52:20,103 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 19:52:20,104 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 19:52:20,105 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 19:52:20,106 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 19:52:20,107 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 19:52:20,108 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 19:52:20,143 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 19:52:20,144 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 19:59:46,813 - main - INFO - サンプルCSVファイルのパス: E:\AllinOnePcSetUpAutoMationSystem\登録ユーザ情報サンプル.csv
+2025-02-08 19:59:46,816 - main - INFO - ファイルの存在確認: True
+2025-02-08 19:59:46,825 - main - ERROR - サンプルCSVファイルの提供に失敗: 'latin-1' codec can't encode characters in position 21-31: ordinal not in range(256)
+2025-02-08 20:01:23,551 - main - INFO - サンプルCSVファイルのパス: E:\AllinOnePcSetUpAutoMationSystem\登録ユーザ情報サンプル.csv
+2025-02-08 20:01:23,553 - main - INFO - ファイルの存在確認: True
+2025-02-08 20:01:23,557 - main - ERROR - サンプルCSVファイルの提供に失敗: 'latin-1' codec can't encode characters in position 21-31: ordinal not in range(256)
+2025-02-08 20:04:39,178 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 20:04:39,179 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 20:04:39,179 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 20:04:39,181 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 20:04:39,182 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 20:04:39,183 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 20:04:39,183 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 20:04:39,184 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 20:04:39,185 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 20:04:39,208 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 20:04:39,210 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 20:04:48,072 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-02-08 20:04:48,074 - multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2025-02-08 20:04:48,075 - multipart.multipart - DEBUG - Calling on_header_value with data[63:139]
+2025-02-08 20:04:48,076 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 20:04:48,076 - multipart.multipart - DEBUG - Calling on_header_field with data[141:153]
+2025-02-08 20:04:48,077 - multipart.multipart - DEBUG - Calling on_header_value with data[155:163]
+2025-02-08 20:04:48,078 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 20:04:48,079 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-02-08 20:04:48,080 - multipart.multipart - DEBUG - Calling on_part_data with data[167:1482]
+2025-02-08 20:04:48,081 - multipart.multipart - DEBUG - Calling on_part_data with data[0:2]
+2025-02-08 20:04:48,082 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-02-08 20:04:48,083 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 20:04:48,086 - backend.utils - INFO - ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']
+2025-02-08 20:04:48,088 - backend.utils - INFO - データ行数: 6
+2025-02-08 20:04:48,090 - backend.utils - INFO - ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']
+2025-02-08 20:04:48,094 - backend.utils - INFO - ログインタイプヘッダー: ログインタイプ
+2025-02-08 20:04:48,096 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 20:04:48,097 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 20:04:48,104 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 20:04:48,109 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 20:04:48,115 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 20:04:48,120 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 21:00:29,506 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 21:05:09,688 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 21:05:09,692 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 21:05:09,693 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 21:05:09,693 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 21:05:09,694 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 21:05:09,695 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 21:05:09,695 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 21:05:09,697 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 21:05:09,697 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 21:05:14,312 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 21:05:14,313 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 21:05:14,313 - multipart.multipart - DEBUG - Calling on_field_data with data[9:13]
+2025-02-08 21:05:14,315 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 21:05:14,316 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 21:05:14,316 - multipart.multipart - DEBUG - Calling on_field_name with data[14:22]
+2025-02-08 21:05:14,317 - multipart.multipart - DEBUG - Calling on_field_data with data[23:35]
+2025-02-08 21:05:14,319 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 21:05:14,320 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 21:05:46,919 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 21:05:46,920 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 21:05:46,921 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 21:05:46,922 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 21:05:46,923 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 21:05:46,924 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 21:05:46,925 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 21:05:46,926 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 21:05:46,927 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 21:05:51,056 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 21:05:51,057 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 21:05:51,059 - multipart.multipart - DEBUG - Calling on_field_data with data[9:13]
+2025-02-08 21:05:51,060 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 21:05:51,061 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 21:05:51,062 - multipart.multipart - DEBUG - Calling on_field_name with data[14:22]
+2025-02-08 21:05:51,063 - multipart.multipart - DEBUG - Calling on_field_data with data[23:35]
+2025-02-08 21:05:51,063 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 21:05:51,064 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 21:06:26,500 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 21:06:26,501 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 21:06:26,502 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 21:06:26,503 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 21:06:26,504 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 21:06:26,506 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 21:06:26,507 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 21:06:26,509 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 21:06:26,509 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 21:06:30,874 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 21:06:30,876 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 21:06:30,877 - multipart.multipart - DEBUG - Calling on_field_data with data[9:13]
+2025-02-08 21:06:30,877 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 21:06:30,879 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 21:06:30,880 - multipart.multipart - DEBUG - Calling on_field_name with data[14:22]
+2025-02-08 21:06:30,881 - multipart.multipart - DEBUG - Calling on_field_data with data[23:35]
+2025-02-08 21:06:30,882 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 21:06:30,885 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 21:17:45,460 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 21:18:20,911 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 21:21:16,289 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 21:23:04,389 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 21:26:45,783 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 21:30:31,068 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 21:32:08,682 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 21:36:20,075 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 21:37:22,766 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 21:39:08,917 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 21:41:49,167 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 21:44:59,502 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 21:44:59,504 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 21:45:05,255 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 21:45:05,255 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 21:45:05,256 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 21:45:05,257 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 21:45:05,257 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 21:45:05,259 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 21:45:05,259 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 21:45:05,260 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 21:45:05,260 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 21:45:09,666 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 21:45:09,667 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 21:45:09,668 - multipart.multipart - DEBUG - Calling on_field_data with data[9:13]
+2025-02-08 21:45:09,671 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 21:45:09,671 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 21:45:09,672 - multipart.multipart - DEBUG - Calling on_field_name with data[14:22]
+2025-02-08 21:45:09,672 - multipart.multipart - DEBUG - Calling on_field_data with data[23:35]
+2025-02-08 21:45:09,673 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 21:45:09,673 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 21:52:36,480 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 21:54:59,669 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 21:54:59,670 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 21:54:59,671 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 21:54:59,672 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 21:54:59,672 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 21:54:59,673 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 21:54:59,673 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 21:54:59,674 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 21:54:59,675 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 21:54:59,751 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 21:54:59,753 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 21:55:47,831 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 21:55:47,832 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 21:55:47,833 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 21:55:47,833 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 21:55:47,834 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 21:55:47,835 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 21:55:47,836 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 21:55:47,838 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 21:55:47,842 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 21:56:51,621 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 21:57:31,705 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 21:57:31,707 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 21:57:31,708 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 21:57:31,709 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 21:57:31,710 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 21:57:31,712 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 21:57:31,713 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 21:57:31,713 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 21:57:31,715 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 21:57:31,716 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 21:57:31,717 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 21:57:31,718 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 21:57:31,719 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 21:57:31,720 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 21:57:31,720 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 21:57:31,721 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 21:57:31,722 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 21:57:31,723 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 21:57:31,822 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 21:57:31,824 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 22:01:56,080 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 22:02:19,900 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:02:19,904 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 22:02:19,906 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 22:02:19,907 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:02:19,908 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:02:19,909 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 22:02:19,910 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 22:02:19,910 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:02:19,911 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 22:02:19,913 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:02:19,914 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 22:02:19,916 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 22:02:19,920 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:02:19,921 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:02:19,924 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 22:02:19,925 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 22:02:19,926 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:02:19,927 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 22:02:20,033 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 22:02:20,035 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 22:03:33,870 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 22:03:49,842 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:03:49,844 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 22:03:49,844 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 22:03:49,845 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:03:49,846 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:03:49,847 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 22:03:49,847 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 22:03:49,848 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:03:49,849 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 22:03:49,850 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:03:49,851 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 22:03:49,851 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 22:03:49,853 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:03:49,853 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:03:49,853 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 22:03:49,855 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 22:03:49,855 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:03:49,857 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 22:03:49,931 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 22:03:49,932 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 22:08:37,834 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 22:09:43,736 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:09:43,737 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 22:09:43,738 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 22:09:43,739 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:09:43,740 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:09:43,741 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 22:09:43,742 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 22:09:43,743 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:09:43,744 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 22:09:43,746 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:09:43,747 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 22:09:43,748 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 22:09:43,749 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:09:43,750 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:09:43,750 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 22:09:43,751 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 22:09:43,752 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:09:43,753 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 22:09:43,835 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 22:09:43,836 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 22:09:56,943 - __main__ - INFO - サンプルCSVファイルのパス: E:\AllinOnePcSetUpAutoMationSystem\登録ユーザ情報サンプル.csv
+2025-02-08 22:09:57,096 - __main__ - INFO - カレントディレクトリ: E:\AllinOnePcSetUpAutoMationSystem
+2025-02-08 22:09:57,098 - __main__ - INFO - ファイルの存在確認: True
+2025-02-08 22:09:57,099 - __main__ - INFO - ファイルの読み取り成功: サイズ 1022 bytes
+2025-02-08 22:09:57,108 - __main__ - ERROR - サンプルCSVファイルの提供に失敗: 'latin-1' codec can't encode characters in position 21-31: ordinal not in range(256)
+2025-02-08 22:12:27,846 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 22:13:44,276 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:13:44,277 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 22:13:44,278 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 22:13:44,279 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:13:44,279 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:13:44,280 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 22:13:44,281 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 22:13:44,282 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:13:44,283 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 22:13:44,285 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:13:44,286 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 22:13:44,287 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 22:13:44,288 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:13:44,288 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:13:44,289 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 22:13:44,291 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 22:13:44,292 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:13:44,293 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 22:13:44,366 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 22:13:44,369 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 22:13:57,211 - __main__ - INFO - サンプルCSVファイルのパス: E:\AllinOnePcSetUpAutoMationSystem\登録ユーザ情報サンプル.csv
+2025-02-08 22:13:57,213 - __main__ - INFO - カレントディレクトリ: E:\AllinOnePcSetUpAutoMationSystem
+2025-02-08 22:13:57,214 - __main__ - INFO - ファイルの存在確認: True
+2025-02-08 22:13:57,216 - __main__ - INFO - ファイルの読み取り成功: サイズ 1022 bytes
+2025-02-08 22:16:18,341 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 22:16:42,255 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:16:42,256 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 22:16:42,257 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 22:16:42,258 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:16:42,258 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:16:42,259 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 22:16:42,259 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 22:16:42,261 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:16:42,262 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 22:16:42,264 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:16:42,265 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 22:16:42,266 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 22:16:42,267 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:16:42,267 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:16:42,268 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 22:16:42,269 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 22:16:42,269 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:16:42,388 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 22:16:42,480 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 22:16:42,482 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 22:18:36,908 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 22:19:07,099 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:19:07,100 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 22:19:07,102 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 22:19:07,102 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:19:07,104 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:19:07,105 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 22:19:07,106 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 22:19:07,107 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:19:07,108 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 22:19:07,110 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:19:07,111 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 22:19:07,112 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 22:19:07,112 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:19:07,113 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:19:07,114 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 22:19:07,114 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 22:19:07,115 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:19:07,115 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 22:19:07,188 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 22:19:07,191 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 22:21:07,685 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-08 22:21:52,465 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:21:52,467 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 22:21:52,467 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 22:21:52,468 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:21:52,469 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:21:52,470 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 22:21:52,470 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 22:21:52,472 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:21:52,473 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 22:21:52,475 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:21:52,476 - multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-02-08 22:21:52,477 - multipart.multipart - DEBUG - Calling on_field_data with data[9:14]
+2025-02-08 22:21:52,478 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:21:52,478 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-02-08 22:21:52,479 - multipart.multipart - DEBUG - Calling on_field_name with data[15:23]
+2025-02-08 22:21:52,479 - multipart.multipart - DEBUG - Calling on_field_data with data[24:37]
+2025-02-08 22:21:52,480 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-02-08 22:21:52,480 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 22:21:52,626 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-02-08 22:21:52,627 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-02-08 22:22:03,615 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-02-08 22:22:03,616 - multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2025-02-08 22:22:03,617 - multipart.multipart - DEBUG - Calling on_header_value with data[63:139]
+2025-02-08 22:22:03,618 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 22:22:03,618 - multipart.multipart - DEBUG - Calling on_header_field with data[141:153]
+2025-02-08 22:22:03,619 - multipart.multipart - DEBUG - Calling on_header_value with data[155:163]
+2025-02-08 22:22:03,620 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-02-08 22:22:03,620 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-02-08 22:22:03,621 - multipart.multipart - DEBUG - Calling on_part_data with data[167:1482]
+2025-02-08 22:22:03,621 - multipart.multipart - DEBUG - Calling on_part_data with data[0:2]
+2025-02-08 22:22:03,622 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-02-08 22:22:03,622 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-02-08 22:22:03,729 - __main__ - INFO - CSVファイルの内容:
+﻿PCセットアップ自動化システム,,,,,,,,,,
+登録ユーザ情報サンプル,,,,,,,,,,
+※10行目以降にデータを入力してください,,,,,,,,,,
+※ログインタイプは「AD」「既存ローカル」「新規ローカル」のいずれかを指定してください,,,,,,,,,,
+ホスト名,IPアドレス,ログインタイプ,ADユーザ,ADパスワード,既存ローカル,既存ローカルパスワード,フルネーム,新規ローカルユーザー名,新規ローカルパスワード,Administrator権限付与（YesまたはNo）
+PC001(サンプル),192.168.1.10,AD,MIRAI\MK0161,password,,,,,,No
+PC002(サンプル),192.168.1.11,既存ローカル,,,mirai-user,mirai,,,,No
+PC003(サンプル),192.168.1.12,既存ローカル,,,l-admin,Ladministrator,,,,No
+PC004(サンプル),192.168.1.13,新規ローカル,,,,,山田太郎,taro-yama,pass123,Yes
+20250...
+2025-02-08 22:22:03,738 - backend.utils - INFO - ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']
+2025-02-08 22:22:03,740 - backend.utils - INFO - データ行数: 6
+2025-02-08 22:22:03,741 - backend.utils - INFO - ログインタイプヘッダー: ログインタイプ
+2025-02-08 22:22:03,744 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 22:22:03,745 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 22:22:03,747 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW
+2025-02-08 22:22:03,749 - backend.utils - INFO - ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING
+2025-02-08 22:22:03,751 - backend.utils - INFO - ログインタイプ: AD -> LoginType.AD
+2025-02-08 22:22:03,753 - backend.utils - INFO - ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW

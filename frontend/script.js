@@ -1,10 +1,298 @@
-// グローバル変数
-let currentComputerList = [];
-let activeRequestId = null;
-let statusPollingInterval = null;
+// モジュールスコープ変数
+let currentUser = null;  // ログインユーザー名
 
-// APIのベースURL
-const API_BASE_URL = '/api';  // 相対パスを使用
+// 状態管理用変数
+const state = {
+    currentComputerList: [],
+    activeRequestId: null,
+    statusPollingInterval: null
+};
+
+// DOM要素のキャッシュ
+const domElements = {
+    loginForm: document.getElementById('loginForm'),
+    newRequestForm: document.getElementById('newRequestForm'),
+    requestList: document.getElementById('requestList'),
+    logoutBtn: document.getElementById('logoutBtn'),
+    userInfo: document.getElementById('userInfo'),
+    mainNav: document.getElementById('mainNav')
+};
+
+// ログイン処理
+async function login(event) {
+    event.preventDefault();
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+    try {
+        const response = await fetch(`${API_BASE_URL}/token`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: `username=${encodeURIComponent(username)}&password=${encodeURIComponent(password)}`,
+        });
+
+        if (!response.ok) {
+            throw new Error('ログインに失敗しました');
+        }
+
+        const data = await response.json();
+        localStorage.setItem('token', data.access_token);
+        localStorage.setItem('userRole', data.role);
+        localStorage.setItem('username', username);
+        currentUser = username;
+        showLoggedInUI(data.role);
+    } catch (error) {
+        alert(error.message);
+    }
+}
+
+
+// UI表示状態を管理
+function showLoggedInUI(role) {
+    const loginForm = document.getElementById('loginForm');
+    const newRequestForm = document.getElementById('newRequestForm');
+    const logoutBtn = document.getElementById('logoutBtn');
+    const userInfo = document.getElementById('userInfo');
+    const mainNav = document.getElementById('mainNav');
+    
+    if (loginForm) loginForm.classList.add('hidden');
+    if (newRequestForm) newRequestForm.classList.remove('hidden');
+    if (logoutBtn) logoutBtn.classList.remove('hidden');
+    if (userInfo) {
+        userInfo.textContent = `ログイン中: ${currentUser}`;
+        userInfo.classList.remove('hidden');
+    }
+    if (mainNav) mainNav.classList.remove('hidden');
+    
+    // 管理者専用機能の制御
+    const adminElements = document.querySelectorAll('.admin-only');
+    adminElements.forEach(element => {
+        if (role === 'admin') {
+            element.classList.remove('hidden');
+        } else {
+            element.classList.add('hidden');
+        }
+    });
+}
+
+function showLoggedOutUI() {
+    const loginForm = document.getElementById('loginForm');
+    const newRequestForm = document.getElementById('newRequestForm');
+    const requestList = document.getElementById('requestList');
+    const logoutBtn = document.getElementById('logoutBtn');
+    const userInfo = document.getElementById('userInfo');
+    const mainNav = document.getElementById('mainNav');
+    
+    if (loginForm) loginForm.classList.remove('hidden');
+    if (newRequestForm) newRequestForm.classList.add('hidden');
+    if (requestList) requestList.classList.add('hidden');
+    if (logoutBtn) logoutBtn.classList.add('hidden');
+    if (userInfo) userInfo.classList.add('hidden');
+    if (mainNav) mainNav.classList.add('hidden');
+}
+function logout() {
+    localStorage.removeItem('token');
+    localStorage.removeItem('userRole');
+    localStorage.removeItem('username');
+    currentUser = null;
+    showLoggedOutUI();
+}
+// トークンを取得
+function getToken() {
+    return localStorage.getItem('token');
+}
+
+// リフレッシュトークンを取得
+function getRefreshToken() {
+    return localStorage.getItem('refreshToken');
+}
+
+// トークンの有効期限をチェック
+function isTokenExpired(token) {
+    try {
+        if (!token) return true;
+        
+        const payloadBase64 = token.split('.')[1];
+        if (!payloadBase64) return true;
+        
+        const decodedJson = atob(payloadBase64);
+        const payload = JSON.parse(decodedJson);
+        
+        // 追加の検証
+        if (!payload.exp || typeof payload.exp !== 'number') return true;
+        
+        const now = Math.floor(Date.now() / 1000);
+        const bufferTime = 60; // 有効期限の1分前から再発行を促す
+        return now + bufferTime >= payload.exp;
+    } catch (error) {
+        console.error('トークン検証エラー:', error);
+        return true;
+    }
+}
+
+// トークンの更新
+async function refreshToken() {
+    const refreshToken = getRefreshToken();
+    if (!refreshToken) {
+        logout();
+        throw new Error('セッションが無効になりました。再度ログインしてください。');
+    }
+    try {
+        const response = await fetch(`${API_BASE_URL}/refresh-token`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ refresh_token: refreshToken }),
+        });
+        if (!response.ok) {
+            throw new Error('トークンの更新に失敗しました');
+        }
+        const data = await response.json();
+        localStorage.setItem('token', data.access_token);
+        localStorage.setItem('refreshToken', data.refresh_token);
+        return data.access_token;
+    } catch (error) {
+        console.error('[Token Refresh Error]:', {
+            message: error.message,
+            stack: error.stack
+        });
+        logout();
+        throw new Error('トークンの更新に失敗しました。再度ログインしてください。');
+    }
+}
+
+// 改善版APIリクエストラッパー
+async function fetchWithToken(url, options = {}) {
+    try {
+        let token = getToken();
+        
+        // トークンの有効性チェックとリフレッシュ
+        if (isTokenExpired(token)) {
+            token = await refreshToken();
+        }
+        
+        // リクエストヘッダーの構築
+        const headers = {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${token}`,
+            ...options.headers
+        };
+        
+        // APIリクエストの実行
+        const response = await fetch(url, {
+            ...options,
+            headers
+        });
+        
+        // エラーレスポンスのハンドリング
+        if (!response.ok) {
+            const errorData = await response.json();
+            const errorMessage = errorData.message || 'APIリクエストに失敗しました';
+            if (errorMessage.includes('トークン')) {
+                console.error('認証エラー:', errorMessage);
+                logout();
+            }
+            throw new Error(errorMessage);
+        }
+        return response;
+    } catch (error) {
+        throw error;
+    }
+}
+
+// ページ読み込み時の処理
+document.addEventListener('DOMContentLoaded', () => {
+    // ログインフォームのイベントリスナー
+    const loginForm = document.getElementById('loginForm');
+    if (loginForm) {
+        loginForm.addEventListener('submit', login);
+    }
+
+    // ログアウトボタンのイベントリスナー
+    const logoutBtn = document.getElementById('logoutBtn');
+    if (logoutBtn) {
+        logoutBtn.addEventListener('click', logout);
+    }
+
+    // CSVインポート関連のイベントリスナー
+    const importCsvBtn = document.getElementById('importCsvBtn');
+    if (importCsvBtn) {
+        importCsvBtn.addEventListener('click', importCSV);
+    }
+
+    const downloadSampleCsvBtn = document.getElementById('downloadSampleCsvBtn');
+    if (downloadSampleCsvBtn) {
+        downloadSampleCsvBtn.addEventListener('click', downloadSampleCSV);
+    }
+
+    // ステップ間の移動のイベントリスナー
+    const validateAndProceedBtn = document.getElementById('validateAndProceedBtn');
+    if (validateAndProceedBtn) {
+        validateAndProceedBtn.addEventListener('click', validateAndProceed);
+    }
+
+    const backToStep1Btn = document.getElementById('backToStep1Btn');
+    if (backToStep1Btn) {
+        backToStep1Btn.addEventListener('click', backToStep1);
+    }
+
+    const submitSetupBtn = document.getElementById('submitSetupBtn');
+    if (submitSetupBtn) {
+        submitSetupBtn.addEventListener('click', submitSetupRequest);
+    }
+
+    // モーダルのイベントリスナー
+    const closeModalBtn = document.getElementById('closeModalBtn');
+    if (closeModalBtn) {
+        closeModalBtn.addEventListener('click', closeModal);
+    }
+
+    // 認証状態の確認
+    const token = getToken();
+    const userRole = localStorage.getItem('userRole');
+    if (token && userRole) {
+        currentUser = localStorage.getItem('username');
+        showLoggedInUI(userRole);
+    } else {
+        showLoggedOutUI();
+    }
+});
+
+// ユーザー情報を取得
+async function fetchUserInfo() {
+    try {
+        const response = await fetchWithToken(`${API_BASE_URL}/users/me`);
+        const user = await response.json();
+        currentUser = user.username;
+        localStorage.setItem('username', user.username);
+        localStorage.setItem('userRole', user.role);
+        showLoggedInUI(user.role);
+    } catch (error) {
+        console.error('Error fetching user info:', error);
+        showLoggedOutUI();
+    }
+}
+
+// API呼び出し時のユーザーロールチェック
+function checkUserRole(requiredRole) {
+    const userRole = localStorage.getItem('userRole');
+    if (requiredRole === 'admin' && userRole !== 'admin') {
+        throw new Error('管理者権限が必要です');
+    }
+}
+
+// 管理者専用ページへのアクセス制御
+function showAdminPage() {
+    try {
+        checkUserRole('admin');
+        // 管理者専用ページの表示処理
+        console.log('管理者専用ページを表示');
+    } catch (error) {
+        alert(error.message);
+    }
+}
 
 // デフォルト設定
 const defaultSettings = {
@@ -164,7 +452,6 @@ function showRequestList() {
     loadRequestList();
 }
 
-// CSVファイルのインポート処理
 async function importCSV() {
     const fileInput = document.getElementById('csvFile');
     const file = fileInput.files[0];
@@ -184,8 +471,12 @@ async function importCSV() {
 
     try {
         console.log('APIリクエスト送信:', `${API_BASE_URL}/setup/upload-csv`);
+        const token = getToken();
         const response = await fetch(`${API_BASE_URL}/setup/upload-csv`, {
             method: 'POST',
+            headers: {
+                'Authorization': `Bearer ${token}`
+            },
             body: formData
         });
 
@@ -210,8 +501,8 @@ async function importCSV() {
                     <p>確認事項:</p>
                     <ul>
                         <li>CSVファイルの形式が正しいか確認してください</li>
-                        <li>6行目以降にデータが存在するか確認してください</li>
-                        <li>ログイン種別は「AD」「既存ローカル」「新規ローカル」のいずれかを指定してください</li>
+                        <li>10行目以降にデータが存在するか確認してください</li>
+                        <li>ログインタイプは「AD」「既存ローカル」「新規ローカル」のいずれかを指定してください</li>
                     </ul>
                 </div>
             `;
@@ -599,12 +890,12 @@ async function submitSetupRequest() {
     }));
 
     const formData = new FormData();
-    formData.append('requester', 'current_user'); // TODO: 実際のユーザー認証を実装
+    formData.append('requester', currentUser);
     formData.append('computers_json', JSON.stringify(computersWithSettings));
     formData.append('options_json', JSON.stringify(commonSettings));
 
     try {
-        const response = await fetch(`${API_BASE_URL}/setup/create`, {
+        const response = await fetchWithToken(`${API_BASE_URL}/setup/create`, {
             method: 'POST',
             body: formData
         });
@@ -632,7 +923,7 @@ async function loadRequestList() {
         if (statusFilter) url += `?status=${statusFilter}`;
         if (requesterFilter) url += `${statusFilter ? '&' : '?'}requester=${requesterFilter}`;
 
-        const response = await fetch(url);
+        const response = await fetchWithToken(url);
         if (!response.ok) {
             const error = await response.json();
             throw new Error(error.detail || '申請一覧の取得に失敗しました。');
@@ -648,6 +939,7 @@ async function loadRequestList() {
 // 申請一覧の表示
 function displayRequestList(requests) {
     const container = document.getElementById('requestListContent');
+    const userRole = localStorage.getItem('userRole');
     container.innerHTML = requests.map(request => `
         <div class="request-card">
             <div class="request-header">
@@ -658,7 +950,7 @@ function displayRequestList(requests) {
                 <p>申請者: ${request.requester}</p>
                 <p>対象PC数: ${request.computers.length}</p>
                 <p>申請日時: ${new Date(request.created_at).toLocaleString()}</p>
-                ${request.status === 'pending' ? `
+                ${userRole === 'admin' && request.status === 'pending' ? `
                     <button onclick="approveRequest('${request.request_id}')">承認</button>
                     <button onclick="rejectRequest('${request.request_id}')">却下</button>
                 ` : ''}
@@ -676,24 +968,59 @@ function getStatusText(status) {
         rejected: '却下',
         in_progress: '実行中',
         completed: '完了',
-        failed: '失敗'
+        failed: '失敗',
+        warning: '警告',
+        skipped: 'スキップ',
+        partially_failed: '一部失敗',
+        rollback: 'ロールバック中',
+        rollback_failed: 'ロールバック失敗'
     };
     return statusMap[status] || status;
 }
 
+// ステータスに応じたスタイルクラスを取得
+function getStatusClass(status) {
+    const classMap = {
+        pending: 'status-pending',
+        approved: 'status-approved',
+        rejected: 'status-rejected',
+        in_progress: 'status-in-progress',
+        completed: 'status-completed',
+        failed: 'status-failed',
+        warning: 'status-warning',
+        skipped: 'status-skipped',
+        partially_failed: 'status-partially-failed',
+        rollback: 'status-rollback',
+        rollback_failed: 'status-rollback-failed'
+    };
+    return classMap[status.toLowerCase()] || '';
+}
+
+// エラーの重要度に応じたスタイルクラスを取得
+function getSeverityClass(severity) {
+    const classMap = {
+        info: 'severity-info',
+        warning: 'severity-warning',
+        error: 'severity-error',
+        critical: 'severity-critical'
+    };
+    return classMap[severity.toLowerCase()] || '';
+}
+
 // セットアップリクエストの承認
 async function approveRequest(requestId) {
-    if (!confirm('このセットアップリクエストを承認しますか?')) return;
-
     try {
-        const response = await fetch(`${API_BASE_URL}/setup/approve`, {
+        checkUserRole('admin');
+        if (!confirm('このセットアップリクエストを承認しますか?')) return;
+
+        const response = await fetchWithToken(`${API_BASE_URL}/setup/approve`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
                 request_id: requestId,
-                approver: 'current_user', // TODO: 実際のユーザー認証を実装
+                approver: currentUser,
                 approved: true
             })
         });
@@ -711,18 +1038,19 @@ async function approveRequest(requestId) {
 
 // セットアップリクエストの却下
 async function rejectRequest(requestId) {
-    const reason = prompt('却下理由を入力してください:');
-    if (reason === null) return;
-
     try {
-        const response = await fetch(`${API_BASE_URL}/setup/approve`, {
+        checkUserRole('admin');
+        const reason = prompt('却下理由を入力してください:');
+        if (reason === null) return;
+
+        const response = await fetchWithToken(`${API_BASE_URL}/setup/approve`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
                 request_id: requestId,
-                approver: 'current_user', // TODO: 実際のユーザー認証を実装
+                approver: currentUser,
                 approved: false,
                 rejection_reason: reason
             })
@@ -742,7 +1070,7 @@ async function rejectRequest(requestId) {
 // ステータス詳細の表示
 async function showStatus(requestId) {
     try {
-        const response = await fetch(`${API_BASE_URL}/setup/${requestId}/status`);
+        const response = await fetchWithToken(`${API_BASE_URL}/setup/${requestId}/status`);
         if (!response.ok) {
             const error = await response.json();
             throw new Error(error.detail || 'ステータス情報の取得に失敗しました。');
@@ -764,15 +1092,20 @@ function displayStatusModal(statusData, requestId) {
     const logContainer = document.getElementById('logContainer');
 
     // 全体の進捗状況
+    const totalTime = statusData.actual_time ? Math.floor(statusData.actual_time / 60) : 0;
     progressContainer.innerHTML = `
         <h3>全体の進捗: ${Math.round(statusData.progress)}%</h3>
         <div class="progress-bar">
             <div class="progress-bar-fill" style="width: ${statusData.progress}%"></div>
         </div>
+        <p class="time-info">経過時間: ${totalTime}分</p>
         <h3>PC別の進捗状況</h3>
         ${Object.entries(statusData.computer_progress || {}).map(([pc, progress]) => `
             <div class="pc-progress">
-                <p>${pc}: ${Math.round(progress)}%</p>
+                <div class="pc-progress-header">
+                    <p>${pc}</p>
+                    <p class="progress-percentage">${Math.round(progress)}%</p>
+                </div>
                 <div class="progress-bar">
                     <div class="progress-bar-fill" style="width: ${progress}%"></div>
                 </div>
@@ -784,15 +1117,36 @@ function displayStatusModal(statusData, requestId) {
     logContainer.innerHTML = `
         <h3>実行ログ</h3>
         <div class="log-entries">
-            ${(statusData.logs || []).map(log => `
-                <div class="log-entry">
-                    <span class="log-timestamp">${new Date(log.timestamp).toLocaleString()}</span>
-                    <span class="log-computer">${log.computer_name}</span>
-                    <span class="log-task">${log.task_name}</span>
-                    <span class="log-status status-badge status-${log.status.toLowerCase()}">${log.status}</span>
-                    <span class="log-message">${log.message}</span>
-                </div>
-            `).join('')}
+            ${(statusData.logs || []).map(log => {
+                const duration = log.duration ? `(所要時間: ${log.duration}秒)` : '';
+                const statusClass = getStatusClass(log.status);
+                return `
+                    <div class="log-entry ${statusClass}">
+                        <div class="log-header">
+                            <span class="log-timestamp">${new Date(log.timestamp).toLocaleString()}</span>
+                            <span class="log-duration">${duration}</span>
+                        </div>
+                        <div class="log-content">
+                            <span class="log-computer">${log.computer_name}</span>
+                            <span class="log-task">${log.task_name}</span>
+                            <span class="log-status status-badge status-${log.status.toLowerCase()}">${getStatusText(log.status)}</span>
+                        </div>
+                        <div class="log-message">${log.message}</div>
+                        ${log.status === 'Failed' ? `
+                            <div class="error-details">
+                                <p class="error-title">エラー詳細:</p>
+                                <pre class="error-message">${log.message}</pre>
+                                ${log.resolution_steps ? `
+                                    <p class="resolution-title">推奨される対処方法:</p>
+                                    <ul class="resolution-steps">
+                                        ${log.resolution_steps.map(step => `<li>${step}</li>`).join('')}
+                                    </ul>
+                                ` : ''}
+                            </div>
+                        ` : ''}
+                    </div>
+                `;
+            }).join('')}
         </div>
     `;
 

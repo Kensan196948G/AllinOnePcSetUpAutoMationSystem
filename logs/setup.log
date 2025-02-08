@@ -1,0 +1,166 @@
+{"timestamp": "2025-02-08T16:26:51.489776", "level": "ERROR", "logger": "backend.utils", "message": "CSVパースエラー: 'login_type'"}
+{"timestamp": "2025-02-08T16:32:13.192035", "level": "ERROR", "logger": "backend.utils", "message": "CSVパースエラー: 'ログイン種別'"}
+{"timestamp": "2025-02-08T16:33:07.000375", "level": "ERROR", "logger": "backend.utils", "message": "CSVパースエラー: 'ログイン種別'"}
+{"timestamp": "2025-02-08T16:33:14.702028", "level": "ERROR", "logger": "backend.utils", "message": "CSVパースエラー: 'ログイン種別'"}
+{"timestamp": "2025-02-08T16:35:35.904865", "level": "ERROR", "logger": "backend.utils", "message": "CSVパースエラー: 不正なログインタイプです: None\n有効な値: AD, 既存ローカル, 新規ローカル"}
+{"timestamp": "2025-02-08T16:43:04.944251", "level": "ERROR", "logger": "backend.utils", "message": "CSVパースエラー: 不正なログインタイプです: \n有効な値: AD, 既存ローカル, 新規ローカル"}
+{"timestamp": "2025-02-08T16:50:23.133864", "level": "ERROR", "logger": "backend.utils", "message": "CSVパースエラー: 不正なログインタイプです: \n有効な値: AD, 既存ローカル, 新規ローカル"}
+{"timestamp": "2025-02-08T16:54:01.824679", "level": "ERROR", "logger": "backend.utils", "message": "不正なログインタイプです: "}
+{"timestamp": "2025-02-08T16:54:01.826685", "level": "ERROR", "logger": "backend.utils", "message": "行の内容: {'PC004(サンプル)': '202501010M', '192.168.1.13': '172.23.10.20', '新規ローカル': '既存ローカル', '': 'mirai', '山田太郎': '', 'taro-yama': '', 'pass123': '', 'Yes': ''}"}
+{"timestamp": "2025-02-08T16:54:01.829679", "level": "ERROR", "logger": "backend.utils", "message": "CSVパースエラー: 不正なログインタイプです: \n有効な値: AD, 既存ローカル, 新規ローカル"}
+{"timestamp": "2025-02-08T16:59:52.588876", "level": "INFO", "logger": "backend.utils", "message": "ヘッダー: ['PC004(サンプル)', '192.168.1.13', '新規ローカル', '', '', '', '', '山田太郎', 'taro-yama', 'pass123', 'Yes']"}
+{"timestamp": "2025-02-08T16:59:52.591029", "level": "ERROR", "logger": "backend.utils", "message": "不正なログインタイプです: "}
+{"timestamp": "2025-02-08T16:59:52.592036", "level": "ERROR", "logger": "backend.utils", "message": "行の内容: {'PC004(サンプル)': '202501010M', '192.168.1.13': '172.23.10.20', '新規ローカル': '既存ローカル', '': 'mirai', '山田太郎': '', 'taro-yama': '', 'pass123': '', 'Yes': ''}"}
+{"timestamp": "2025-02-08T16:59:52.593116", "level": "ERROR", "logger": "backend.utils", "message": "利用可能なキー: dict_keys(['PC004(サンプル)', '192.168.1.13', '新規ローカル', '', '山田太郎', 'taro-yama', 'pass123', 'Yes'])"}
+{"timestamp": "2025-02-08T16:59:52.594628", "level": "ERROR", "logger": "backend.utils", "message": "CSVパースエラー: 不正なログインタイプです: \n有効な値: AD, 既存ローカル, 新規ローカル"}
+{"timestamp": "2025-02-08T17:05:07.262378", "level": "INFO", "logger": "backend.utils", "message": "ヘッダー: ['PC004(サンプル)', '192.168.1.13', '新規ローカル', '山田太郎', 'taro-yama', 'pass123', 'Yes']"}
+{"timestamp": "2025-02-08T17:05:07.266367", "level": "ERROR", "logger": "backend.utils", "message": "CSVパースエラー: ヘッダーに'ログイン種別'または'login_type'が見つかりません"}
+{"timestamp": "2025-02-08T17:08:55.400118", "level": "INFO", "logger": "backend.utils", "message": "ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']"}
+{"timestamp": "2025-02-08T17:08:55.402940", "level": "ERROR", "logger": "backend.utils", "message": "CSVパースエラー: ヘッダーに'ログイン種別'または'login_type'が見つかりません"}
+{"timestamp": "2025-02-08T17:15:46.328356", "level": "INFO", "logger": "backend.utils", "message": "ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']"}
+{"timestamp": "2025-02-08T17:15:46.330384", "level": "INFO", "logger": "backend.utils", "message": "データ行数: 10"}
+{"timestamp": "2025-02-08T17:15:46.331395", "level": "INFO", "logger": "backend.utils", "message": "ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']"}
+{"timestamp": "2025-02-08T17:15:46.332719", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプヘッダー: ログインタイプ"}
+{"timestamp": "2025-02-08T17:15:46.335299", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T17:15:46.337305", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T17:15:46.338312", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T17:15:46.342345", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T17:15:46.345355", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T17:15:46.347354", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T17:15:46.348359", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T17:15:46.349357", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T17:15:46.351385", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T17:15:46.353400", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T17:17:25.258748", "level": "INFO", "logger": "backend.utils", "message": "ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']"}
+{"timestamp": "2025-02-08T17:17:25.259752", "level": "INFO", "logger": "backend.utils", "message": "データ行数: 10"}
+{"timestamp": "2025-02-08T17:17:25.261805", "level": "INFO", "logger": "backend.utils", "message": "ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']"}
+{"timestamp": "2025-02-08T17:17:25.263814", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプヘッダー: ログインタイプ"}
+{"timestamp": "2025-02-08T17:17:25.265818", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T17:17:25.266819", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T17:17:25.267814", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T17:17:25.269829", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T17:17:25.271340", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T17:17:25.271888", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T17:17:25.273660", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T17:17:25.276674", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T17:17:25.278685", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T17:17:25.279672", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T17:24:47.621188", "level": "INFO", "logger": "backend.utils", "message": "ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']"}
+{"timestamp": "2025-02-08T17:24:47.623734", "level": "INFO", "logger": "backend.utils", "message": "データ行数: 10"}
+{"timestamp": "2025-02-08T17:24:47.625272", "level": "INFO", "logger": "backend.utils", "message": "ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']"}
+{"timestamp": "2025-02-08T17:24:47.626387", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプヘッダー: ログインタイプ"}
+{"timestamp": "2025-02-08T17:24:47.627904", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T17:24:47.628413", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T17:24:47.636527", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T17:24:47.638550", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T17:24:47.640663", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T17:24:47.641675", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T17:24:47.644182", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T17:24:47.648204", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T17:24:47.649200", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T17:24:47.651203", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T18:58:39.370930", "level": "INFO", "logger": "backend.utils", "message": "ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']"}
+{"timestamp": "2025-02-08T18:58:39.372927", "level": "INFO", "logger": "backend.utils", "message": "データ行数: 10"}
+{"timestamp": "2025-02-08T18:58:39.373931", "level": "INFO", "logger": "backend.utils", "message": "ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']"}
+{"timestamp": "2025-02-08T18:58:39.375929", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプヘッダー: ログインタイプ"}
+{"timestamp": "2025-02-08T18:58:39.377933", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T18:58:39.378929", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T18:58:39.384931", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T18:58:39.391143", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T18:58:39.392660", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T18:58:39.393673", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T18:58:39.395694", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T18:58:39.403344", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T18:58:39.406379", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T18:58:39.407394", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T19:22:48.607882", "level": "INFO", "logger": "backend.utils", "message": "ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与(YesまたはNo)']"}
+{"timestamp": "2025-02-08T19:22:48.609907", "level": "INFO", "logger": "backend.utils", "message": "データ行数: 4"}
+{"timestamp": "2025-02-08T19:22:48.610916", "level": "INFO", "logger": "backend.utils", "message": "ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与(YesまたはNo)']"}
+{"timestamp": "2025-02-08T19:22:48.610916", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプヘッダー: ログインタイプ"}
+{"timestamp": "2025-02-08T19:22:48.613637", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T19:22:48.614653", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T19:22:48.616681", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T19:22:48.618715", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T19:31:30.580999", "level": "INFO", "logger": "backend.utils", "message": "ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']"}
+{"timestamp": "2025-02-08T19:31:30.582506", "level": "INFO", "logger": "backend.utils", "message": "データ行数: 10"}
+{"timestamp": "2025-02-08T19:31:30.584065", "level": "INFO", "logger": "backend.utils", "message": "ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']"}
+{"timestamp": "2025-02-08T19:31:30.586088", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプヘッダー: ログインタイプ"}
+{"timestamp": "2025-02-08T19:31:30.588086", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T19:31:30.590082", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T19:31:30.592084", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T19:31:30.595104", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T19:31:30.597114", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T19:31:30.598113", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T19:31:30.603115", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T19:31:30.608679", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T19:31:30.611680", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T19:31:30.613713", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T19:36:42.511820", "level": "INFO", "logger": "backend.utils", "message": "ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与(YesまたはNo)']"}
+{"timestamp": "2025-02-08T19:36:42.513325", "level": "INFO", "logger": "backend.utils", "message": "データ行数: 6"}
+{"timestamp": "2025-02-08T19:36:42.514845", "level": "INFO", "logger": "backend.utils", "message": "ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与(YesまたはNo)']"}
+{"timestamp": "2025-02-08T19:36:42.516854", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプヘッダー: ログインタイプ"}
+{"timestamp": "2025-02-08T19:36:42.518857", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T19:36:42.521360", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T19:36:42.523374", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T19:36:42.524896", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T19:36:42.526894", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T19:36:42.527404", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T19:40:13.375691", "level": "INFO", "logger": "backend.utils", "message": "ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']"}
+{"timestamp": "2025-02-08T19:40:13.378123", "level": "INFO", "logger": "backend.utils", "message": "データ行数: 10"}
+{"timestamp": "2025-02-08T19:40:13.380122", "level": "INFO", "logger": "backend.utils", "message": "ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']"}
+{"timestamp": "2025-02-08T19:40:13.381123", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプヘッダー: ログインタイプ"}
+{"timestamp": "2025-02-08T19:40:13.383121", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T19:40:13.384679", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T19:40:13.387696", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T19:40:13.390696", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T19:40:13.393206", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T19:40:13.396309", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T19:40:13.398325", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T19:40:13.399327", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T19:40:13.402096", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T19:40:13.404166", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T19:47:33.485017", "level": "INFO", "logger": "backend.utils", "message": "ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']"}
+{"timestamp": "2025-02-08T19:47:33.488027", "level": "INFO", "logger": "backend.utils", "message": "データ行数: 6"}
+{"timestamp": "2025-02-08T19:47:33.491027", "level": "INFO", "logger": "backend.utils", "message": "ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']"}
+{"timestamp": "2025-02-08T19:47:33.492028", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプヘッダー: ログインタイプ"}
+{"timestamp": "2025-02-08T19:47:33.495553", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T19:47:33.538136", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T19:47:33.541653", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T19:47:33.545627", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T19:47:33.549690", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T19:47:33.553197", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T19:59:46.813852", "level": "INFO", "logger": "main", "message": "サンプルCSVファイルのパス: E:\\AllinOnePcSetUpAutoMationSystem\\登録ユーザ情報サンプル.csv"}
+{"timestamp": "2025-02-08T19:59:46.816851", "level": "INFO", "logger": "main", "message": "ファイルの存在確認: True"}
+{"timestamp": "2025-02-08T19:59:46.825385", "level": "ERROR", "logger": "main", "message": "サンプルCSVファイルの提供に失敗: 'latin-1' codec can't encode characters in position 21-31: ordinal not in range(256)"}
+{"timestamp": "2025-02-08T20:01:23.551950", "level": "INFO", "logger": "main", "message": "サンプルCSVファイルのパス: E:\\AllinOnePcSetUpAutoMationSystem\\登録ユーザ情報サンプル.csv"}
+{"timestamp": "2025-02-08T20:01:23.553947", "level": "INFO", "logger": "main", "message": "ファイルの存在確認: True"}
+{"timestamp": "2025-02-08T20:01:23.557995", "level": "ERROR", "logger": "main", "message": "サンプルCSVファイルの提供に失敗: 'latin-1' codec can't encode characters in position 21-31: ordinal not in range(256)"}
+{"timestamp": "2025-02-08T20:04:48.086425", "level": "INFO", "logger": "backend.utils", "message": "ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']"}
+{"timestamp": "2025-02-08T20:04:48.088946", "level": "INFO", "logger": "backend.utils", "message": "データ行数: 6"}
+{"timestamp": "2025-02-08T20:04:48.090336", "level": "INFO", "logger": "backend.utils", "message": "ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']"}
+{"timestamp": "2025-02-08T20:04:48.094465", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプヘッダー: ログインタイプ"}
+{"timestamp": "2025-02-08T20:04:48.096464", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T20:04:48.097973", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T20:04:48.104018", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T20:04:48.109549", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T20:04:48.115565", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T20:04:48.120633", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T22:09:56.943868", "level": "INFO", "logger": "__main__", "message": "サンプルCSVファイルのパス: E:\\AllinOnePcSetUpAutoMationSystem\\登録ユーザ情報サンプル.csv"}
+{"timestamp": "2025-02-08T22:09:57.096222", "level": "INFO", "logger": "__main__", "message": "カレントディレクトリ: E:\\AllinOnePcSetUpAutoMationSystem"}
+{"timestamp": "2025-02-08T22:09:57.098245", "level": "INFO", "logger": "__main__", "message": "ファイルの存在確認: True"}
+{"timestamp": "2025-02-08T22:09:57.099761", "level": "INFO", "logger": "__main__", "message": "ファイルの読み取り成功: サイズ 1022 bytes"}
+{"timestamp": "2025-02-08T22:09:57.108371", "level": "ERROR", "logger": "__main__", "message": "サンプルCSVファイルの提供に失敗: 'latin-1' codec can't encode characters in position 21-31: ordinal not in range(256)"}
+{"timestamp": "2025-02-08T22:13:57.211286", "level": "INFO", "logger": "__main__", "message": "サンプルCSVファイルのパス: E:\\AllinOnePcSetUpAutoMationSystem\\登録ユーザ情報サンプル.csv"}
+{"timestamp": "2025-02-08T22:13:57.213435", "level": "INFO", "logger": "__main__", "message": "カレントディレクトリ: E:\\AllinOnePcSetUpAutoMationSystem"}
+{"timestamp": "2025-02-08T22:13:57.214447", "level": "INFO", "logger": "__main__", "message": "ファイルの存在確認: True"}
+{"timestamp": "2025-02-08T22:13:57.216446", "level": "INFO", "logger": "__main__", "message": "ファイルの読み取り成功: サイズ 1022 bytes"}
+{"timestamp": "2025-02-08T22:22:03.729290", "level": "INFO", "logger": "__main__", "message": "CSVファイルの内容:\n﻿PCセットアップ自動化システム,,,,,,,,,,\r\n登録ユーザ情報サンプル,,,,,,,,,,\r\n※10行目以降にデータを入力してください,,,,,,,,,,\r\n※ログインタイプは「AD」「既存ローカル」「新規ローカル」のいずれかを指定してください,,,,,,,,,,\r\nホスト名,IPアドレス,ログインタイプ,ADユーザ,ADパスワード,既存ローカル,既存ローカルパスワード,フルネーム,新規ローカルユーザー名,新規ローカルパスワード,Administrator権限付与（YesまたはNo）\r\nPC001(サンプル),192.168.1.10,AD,MIRAI\\MK0161,password,,,,,,No\r\nPC002(サンプル),192.168.1.11,既存ローカル,,,mirai-user,mirai,,,,No\r\nPC003(サンプル),192.168.1.12,既存ローカル,,,l-admin,Ladministrator,,,,No\r\nPC004(サンプル),192.168.1.13,新規ローカル,,,,,山田太郎,taro-yama,pass123,Yes\r\n20250..."}
+{"timestamp": "2025-02-08T22:22:03.738321", "level": "INFO", "logger": "backend.utils", "message": "ヘッダー: ['ホスト名', 'IPアドレス', 'ログインタイプ', 'ADユーザ', 'ADパスワード', '既存ローカル', '既存ローカルパスワード', 'フルネーム', '新規ローカルユーザー名', '新規ローカルパスワード', 'Administrator権限付与（YesまたはNo）']"}
+{"timestamp": "2025-02-08T22:22:03.740323", "level": "INFO", "logger": "backend.utils", "message": "データ行数: 6"}
+{"timestamp": "2025-02-08T22:22:03.741834", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプヘッダー: ログインタイプ"}
+{"timestamp": "2025-02-08T22:22:03.744896", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T22:22:03.745888", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T22:22:03.747888", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
+{"timestamp": "2025-02-08T22:22:03.749891", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 既存ローカル -> LoginType.LOCAL_EXISTING"}
+{"timestamp": "2025-02-08T22:22:03.751893", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: AD -> LoginType.AD"}
+{"timestamp": "2025-02-08T22:22:03.753935", "level": "INFO", "logger": "backend.utils", "message": "ログインタイプ: 新規ローカル -> LoginType.LOCAL_NEW"}
